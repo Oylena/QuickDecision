@@ -2,7 +2,8 @@
 
 angular.module('quickDecision', [
         'quickDecision.controllers',
-        'ngRoute'
+        'ngRoute',
+        'ui.bootstrap'
     ]).config(['$routeProvider', function ($routeProvider) {
         $routeProvider.
             when("/welcome", { templateUrl: "templates/welcome.html", controller: "welcomeController" }).
