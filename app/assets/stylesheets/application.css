@@ -123,3 +123,30 @@ footer {
     font-size: 14px;
     color: #999999;
 }
+.ng-scope .content {
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.tabbable .nav-tabs li {
+    background: #5D584B;
+    border-left: 1px solid #7D796F;
+    border-right: 1px solid #454440;
+    display: block;
+    float: left;
+    list-style-type: none;
+    padding: 2px 1em;
+    height: 44px;
+    border: none;
+}
+.tabbable .nav-tabs a {
+    color: white;
+    text-shadow:0 1px 20px #000000;
+    cursor: pointer;
+}
+.tabbable .nav-tabs a:hover {
+    color: #262626;
+    cursor: pointer;
+}
+.content .tabbable ul{
+    background: #5D584B
+}
