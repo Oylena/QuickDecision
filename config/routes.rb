@@ -15,6 +15,9 @@ QuickDecision::Application.routes.draw do
   #   resources :products
 
   get '*path', to: 'projects#index'
+  #get 'projects/' => 'projects#index'
+  #resources :projects do
+  #end
   # Example resource route with options:
   #   resources :products do
   #     member do
