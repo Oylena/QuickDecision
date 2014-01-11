@@ -9,13 +9,6 @@
 //
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
-//
-//= require jquery
-//= require jquery_ujs
-//= require turbolinks
-//= require_tree .
+
+//= require angular
 //= require highcharts
-//= require highcharts/highcharts-more # to get the new features in 2.3.0
-//= require highcharts/adapters/mootools-adapter
-//= require highcharts/adapters/prototype-adapter
-//= require highcharts/adapters/standalone-framework
