@@ -1,4 +1,19 @@
-<ng-include src="'/templates/layout/header.html'"></ng-include>
-<ng-include src="'/templates/layout/sidebar_menu.html'"></ng-include>
-<ng-include src="'/templates/layout/footer.html'"></ng-include>
-<ng-include src="'/templates/layout/content.html'"></ng-include>
+<!--<ng-include src="'/templates/layout/header.html'"></ng-include>-->
+<!--<ng-include src="'/templates/layout/sidebar_menu.html'"></ng-include>-->
+<!--<ng-include src="'/templates/layout/footer.html'"></ng-include>-->
+<!--<ng-include src="'/templates/layout/content.html'"></ng-include>-->
+
+<div ng-controller="welcomeController">
+    <p>evaluate = {{evaluate}}</p>
+
+    <button ng-click="pairwiseComparisons()">pairwiseComparisons</button>
+    <button ng-click="directRating()">directRating</button>
+
+    <!--<div><div ui-slider min="0.0" step="0.33" max="10.0" ng-model="slider"></div></div>-->
+
+    <div class="ng-valid ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all ng-dirty" ng-model="slider" use-decimals="" step="0.01" max="1.00" min="0.00" ui-slider="" aria-disabled="false">
+        <a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 64%;"></a>
+    </div>
+
+    {{ slider }}
+</div>

@@ -3,7 +3,8 @@
 angular.module('quickDecision', [
         'quickDecision.controllers',
         'ngRoute',
-        'ui.bootstrap'
+        'ui.bootstrap',
+        'ui.slider'
     ]).config(['$routeProvider', function ($routeProvider) {
         $routeProvider.
             when("/welcome", { templateUrl: "templates/welcome.html", controller: "welcomeController" }).
