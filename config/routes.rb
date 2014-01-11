@@ -14,7 +14,7 @@ QuickDecision::Application.routes.draw do
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
 
-  get '*path', to: 'projects#index'
+  get '*path', to: 'application#index'
   #get 'projects/' => 'projects#index'
   #resources :projects do
   #end

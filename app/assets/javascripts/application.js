@@ -11,4 +11,5 @@
 // about supported directives.
 
 //= require angular
-//= require highcharts
+//= require_tree
+//require highcharts

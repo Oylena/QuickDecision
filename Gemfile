@@ -22,8 +22,6 @@ gem 'jquery-rails'
 
 gem "bower-rails", "~> 0.6.1"
 
-gem "highcharts-rails", "~> 3.0.0"
-
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 

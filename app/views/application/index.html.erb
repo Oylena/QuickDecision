@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="quickDecision">
+<head>
+  <title>QuickDecision</title>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div ng-view>
+  <%= yield %>
+</div>
+
+</body>
+</html>

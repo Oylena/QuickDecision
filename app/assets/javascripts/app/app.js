@@ -1,7 +1,6 @@
 'use strict';
 
 angular.module('quickDecision', [
-        'quickDecision.services',
         'quickDecision.controllers',
         'ngRoute'
     ]).config(['$routeProvider', function ($routeProvider) {
