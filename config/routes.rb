@@ -15,6 +15,16 @@ QuickDecision::Application.routes.draw do
   #   resources :products
 
   get '*path', to: 'application#index'
+  resources :projects do
+  end
+  resources :criteria do
+  end
+  resources :evaluations do
+  end
+  resources :goals do
+  end
+  resources :alternative do
+  end
   #get 'projects/' => 'projects#index'
   #resources :projects do
   #end
