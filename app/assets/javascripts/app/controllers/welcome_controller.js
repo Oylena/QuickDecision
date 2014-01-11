@@ -2,5 +2,10 @@
 
 angular.module('quickDecision.controllers', []).
     controller('welcomeController', function ($scope) {
-        $scope.hello = 'Welcome!';
+
+        $scope.foo = function(item) {
+          console.log(item)
+        };
+
+        $scope.items = [{name: 'first'}, {name: 'second'}];
     });
