@@ -26,7 +26,7 @@ angular.module('quickDecision.controllers', []).
             ];
 
             var evaluates = [];
-            for (var i = 0; i < alternaties.length; i++) {
+            for (var i = 0; i < alternaties.length-1; i++) {
                 for (var j = i + 1; j < alternaties.length; j++) {
                     evaluates.push(
                        { leftName: alternaties[i].name, left_Weight: alternaties[i].weight, rightName: alternaties[j].name, rightWeight: alternaties[j].weight}
